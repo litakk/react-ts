@@ -3,6 +3,7 @@ import Product from "./Home-sections/Product"
 import About from "./Home-sections/About"
 import FeatureSection from "./Home-sections/FeatureSection"
 import News from "./Home-sections/News"
+import Contact from "./Home-sections/Contact";
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       <About/>
       <FeatureSection/>
       <News/>
+      <Contact/>
     </div>
   );
 };

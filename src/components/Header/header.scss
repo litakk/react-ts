@@ -1,0 +1,60 @@
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00a23a;
+    border-radius: 9px;
+    padding: 6px 50px;
+    width: 90%;
+    margin: 20px auto;
+
+    img {
+      max-width: 100%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      font-family: "VAG Rounded Next";
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0%;
+      color: #ffffff;
+    }
+
+    nav a {
+      position: relative;
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 2px;
+        background-color: #f4b400;
+        transform: scaleX(0); // Начальное состояние - линия скрыта
+        transform-origin: left;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &:hover {
+        color: #f4b400; 
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

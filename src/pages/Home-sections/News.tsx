@@ -23,6 +23,7 @@ const News: React.FC = () => {
         </div>
       </div>
 
+
       <div className="news-cards">
         {[1, 2].map((_, i) => (
           <div key={i} className="news-card">

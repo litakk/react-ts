@@ -16,8 +16,6 @@ const About: React.FC<AboutProps> = () => {
 
       <div className="number-container">
         <div className="number-content">
-
-            
           <div className="number-first">
             <div className="number-left">
               <h1>10m</h1>
@@ -25,18 +23,26 @@ const About: React.FC<AboutProps> = () => {
             </div>
             <div className="number-right">
               <h1>10 000</h1>
-              <p>Магазинов Узбекистана <br /> продают товары от <br /> Puremilky</p>
+              <p>
+                Магазинов Узбекистана <br /> продают товары от <br /> Puremilky
+              </p>
             </div>
           </div>
-
-          <div className="number-second">
-            <div className="number-left">
-              <h1>23</h1>
-              <p>Крупных городов СНГ <br /> пользуются продукцией<br /> Puremilky</p>
-            </div>
-            <div className="number-right">
-              <h1>10m</h1>
-              <p>Постоянных покупателей <br /> продукции Puremilky</p>
+          <div className="gl">
+            <div className="number-second">
+              <div className="number-left">
+                <h1>23</h1>
+                <p>
+                  Крупных городов СНГ <br /> пользуются продукцией
+                  <br /> Puremilky
+                </p>
+              </div>
+              <div className="number-right">
+                <h1>10m</h1>
+                <p>
+                  Постоянных покупателей <br /> продукции Puremilky
+                </p>
+              </div>
             </div>
           </div>
         </div>

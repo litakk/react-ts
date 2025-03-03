@@ -128,6 +128,7 @@
   .number-container {
     margin-top: 81px;
     .number-content {
+      padding: 30px;
       .number-left {
       }
 
@@ -175,18 +176,22 @@
 
       .number-first {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: space-between;
         text-align: center;
-        gap: 500px;
+        width: 73%;
       }
-
+      .gl {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+      }
       .number-second {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        width: 72%;
         text-align: center;
-        gap: 500px;
       }
     }
   }
@@ -220,6 +225,11 @@
 
     color: #003014;
   }
+
+  .news-nav {
+    display: flex;
+  }
+
   .btn-img {
     position: relative; /* Родительский контейнер */
     background-color: #00a23a;
@@ -334,7 +344,6 @@
 .youtube-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: 60px auto;
   gap: 40px;
@@ -350,14 +359,16 @@
   max-width: 600px;
 }
 
-.video-description h1 {
+.video-description h3 {
   font-size: 22px;
   color: #00a23a;
+  margin-bottom: 10px;
 }
 
 .video-description p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 // 7 часть
@@ -368,14 +379,16 @@
   width: 100%;
   background: #fff;
   padding: 40px 0;
+
+  position: relative;
 }
 
 .footer-input {
-  position: relative; 
-  background-image: url('/footer.png');
+  position: relative;
+  background-image: url("/footer.png");
   background-repeat: no-repeat;
-  background-position: center bottom; 
-  background-size: contain; 
+  background-position: center bottom;
+  background-size: contain;
 }
 
 .input-container {
@@ -387,9 +400,6 @@
   border-radius: 12px;
   padding: 40px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-
-
-
 }
 
 /* Левый блок */
@@ -441,5 +451,105 @@
 
 .right-fot button:hover {
   background-color: #00882e;
+}
+
+// 7 часть
+footer {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00a23a;
+
+    padding: 50px;
+
+    padding-top: 52px;
+    color: #ffffff;
+
+    .footer-one img {
+      width: 175px;
+    }
+
+    .footer-two h1 {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .footer-two p {
+      font-weight: 400;
+      font-size: 15px;
+    }
+
+    .footer-two h3 {
+      font-size: 30px;
+    }
+
+    .footer-three h3 {
+      opacity: 0%;
+    }
+
+    .footer-three p {
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .footer-four h2 {
+      font-weight: 700;
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+
+    .footer-four p {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    .footer-four h3 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    .images-main {
+      display: flex;
+    }
+    .item {
+      width: 30px;
+      margin: 5px;
+      height: 30px;
+      background-color: white;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+    }
+
+    .kolDiv {
+      display: flex;
+      gap: 30px;
+    }
+
+    .footer-left {
+      padding: 5px;
+    }
+  }
+
+  .footer-title {
+    background-color: #00a23a;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    .footer-title p {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
+
+.product-title h1 {
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+
 }
 

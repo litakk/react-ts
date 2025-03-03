@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="video-description">
-          <h1>Группа компаний «Siyob»</h1>
+          <h3>Группа компаний «Siyob»</h3>
           <p>
             Группа компаний «Siyob» - многопрофильный холдинг по производству и
             реализации товаров народного потребления, на протяжении 10 лет на
@@ -41,7 +41,8 @@ const Contact: React.FC = () => {
         </div>
       </div>
 
-      {/* ФОРМА */}
+      {/* форм */}
+
       <div className="footer-input">
         <div className="input-container">
           <div className="left-fot">
@@ -59,8 +60,6 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-
-
     </>
   );
 };
